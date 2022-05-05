@@ -1,5 +1,7 @@
 # Embed Like Gist
 
+** This repo is used for Paid Memberships Pro specifically - the master branch is to keep the upstream up to date **
+
 https://emgithub.com/
 
 Embed a file from Github repository just like [Github Gist](https://gist.github.com/). Unlike other websites that do similar work, EmGithub.com is a static site hosted on Github Pages. Fetching target files and highlighting are done on your browser.
