@@ -1,8 +1,7 @@
 embed();
 
 function embed() {
-  // const sourceURL = new URL(document.currentScript.src);
-  const sourceURL = new URL('https://paidmembershipspro.com');
+  const sourceURL = new URL(document.currentScript.src);
   const params = sourceURL.searchParams;
   const target = new URL(params.get("target"));
   const style = params.get("style");
