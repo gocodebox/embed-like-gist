@@ -230,6 +230,10 @@ function embedCodeToTarget(targetDiv, codeText, showBorder, showLineNumbers, sho
     copyButton.addEventListener('click', function (e) {
       e.preventDefault();
       e.cancelBubble = true;
+      // Strip out <?php if the copy to clipboard is used. Only for gists that start with <?php
+      if (codeText.startsWith('<?php')) {
+        codeText = codeText.substring(5);
+      }
       copyTextToClipboard(codeText);
     });
 
