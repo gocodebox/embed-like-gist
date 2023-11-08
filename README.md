@@ -1,6 +1,6 @@
 # Embed Like Gist
 
-** This repo is used for Paid Memberships Pro specifically - the master branch is to keep the upstream up to date **
+** This repo is used for LifterLMS specifically **
 
 https://emgithub.com/
 
